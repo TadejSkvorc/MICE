@@ -42,8 +42,8 @@ def get_xy(filename):
         for i, line in enumerate(f):
             if i % 500 == 0:
                 print(i)
-            if i >= 1500:
-                break
+            #if i >= 1500:
+            #    break
             parts = line.split('\t')
             word = parts[0]
             if len(word) == 0:
@@ -114,8 +114,8 @@ def get_xy_per_expression(filenames):
             for i, line in enumerate(f):
                 if i % 500 == 0:
                     print(i)
-                if i >= 3000:
-                    break
+                #if i >= 3000:
+                #    break
                 parts = line.split('\t')
                 word = parts[0]
                 #print(len(parts))
