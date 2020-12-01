@@ -23,3 +23,4 @@ The second two models take a similar files, but require the word embeddings to b
 
 The /test_datasets folder contains a slovene dataset in the first format (without the pre-computed embeddings).
 
+The code is licensed under the MIT licence. The datasets included in /test_datasets are licensed under Creative Commons - Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
